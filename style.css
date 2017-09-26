@@ -1,0 +1,40 @@
+.center-box {
+  width:80%;
+  margin-left:calc(10% - 1.5em);
+  position:relative;
+}
+
+.tab-center{
+  position:relative;
+  height:2.25em;
+  display:inline-block;
+}
+
+.tab-center2 {
+  width:80%;
+  margin-left:12.5%;
+  display:inline-block;
+  text-align:center;
+}
+
+.tab1, .tab2, .tab3 {
+  padding:0.5em 2em 0.5em 2em;
+  float:left;
+  text-align:center;
+  z-index:-1;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+
+.content1, .content2, .content3 {
+  position:absolute;
+  top:2em;
+  border-radius:10px;
+  padding:1.5em;
+  width:100%;
+}
+
+.absolutefix {
+  height:0px;
+  margin-top:0px;
+}
